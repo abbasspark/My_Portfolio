@@ -1,0 +1,25 @@
+{
+	"name": "App",
+	"icons": [
+		{
+			"src": "/images/icons-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "./apple-touch-icon-57x57.png",
+			"type": "image/png",
+			"sizes": "57x57"
+		},
+		{
+			"src": "./apple-touch-icon-180x180.png",
+			"type": "image/png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "./apple-touch-icon-152x152.png",
+			"type": "image/png",
+			"sizes": "152x152"
+		}
+	]
+}
