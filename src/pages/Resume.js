@@ -1,13 +1,15 @@
-import React from 'react';
-import { Container } from 'bootstrap-4-react';
-
+import React from "react";
+import CV from "./CV";
+import Pdf from "../assets/documents/CV.pdf";
+import "../styles/styles.css";
 const Resume = () => {
-	return (
-		<Container fluid>
-			{/* <div className='resume'> */}
-			<div className='resume__div'></div>
-			{/* </div> */}
-		</Container>
-	);
+  return (
+    <div className="App">
+      <div className="all-page-container">
+        <CV pdf={Pdf} />
+      </div>
+      <hr />
+    </div>
+  );
 };
 export default Resume;
