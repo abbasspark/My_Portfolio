@@ -31,7 +31,7 @@ export default function Footer() {
       <div className="footer__content">
         <NavBarIcons color="white" />
       </div>
-      <div className="footer__content">{`Made by Bandar ©${new Date().getFullYear()}.`}</div>
+      <div className="footer__content">{`Made by Abbas Bandar ©${new Date().getFullYear()}.`}</div>
       {/* </div> */}
     </Navbar>
   );
