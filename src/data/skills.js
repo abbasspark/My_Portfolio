@@ -20,7 +20,7 @@ const skills = [
   },
   {
     id: "4",
-    icon: ["fa", "fa-television"],
+    icon: ["fas", "fa-tv"],
     skill: "Operating System",
     list: ["win 7/8/10", "win server 2008/2012", "Linux", "Ubuntu"],
   },
