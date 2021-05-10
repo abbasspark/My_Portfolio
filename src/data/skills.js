@@ -18,6 +18,12 @@ const skills = [
     skill: "Database Integration",
     list: ["MYSQL", "MSSQL", "GraphQL", "Firestore"],
   },
+  {
+    id: "4",
+    icon: ["fa", "television"],
+    skill: "Paltforms",
+    list: ["win 7/8/10", "win Server 2008/2012", "Linux", "Ubuntu"],
+  },
 ];
 
 export default skills;
