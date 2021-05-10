@@ -3,23 +3,14 @@ const skills = [
     id: "1",
     icon: ["fab", "react"],
     skill: "Front-End Architecture",
-    list: ["CSS", "HTML5", "JavaScript", "React JS", "React Native", "VB.Net"],
+    list: ["HTML5/CSS", "JavaScript", "React JS", "React Native", "VB.Net"],
   },
 
   {
     id: "2",
     icon: ["fa", "server"],
     skill: "Server-Side Scripting",
-    list: [
-      "Node JS",
-      "Express JS",
-      "Firebase",
-      "Strapi",
-      "OAuth",
-      "Passport.js",
-      "Python",
-      "C++",
-    ],
+    list: ["Node JS", "Express JS", "OAuth", "Python", "C++"],
   },
   {
     id: "3",
