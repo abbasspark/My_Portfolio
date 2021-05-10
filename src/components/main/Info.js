@@ -3,34 +3,7 @@ import Layout from "../layout/Layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Animate from "../animate/Animations";
 import FadeAnimation from "../animate/Animations";
-const skills = [
-  {
-    id: "1",
-    icon: ["fab", "react"],
-    skill: "Front-End Architecture",
-    list: ["SCSS/SASS", "JavaScript", "React.js", "React-Native"],
-  },
-
-  {
-    id: "2",
-    icon: ["fa", "server"],
-    skill: "Server-Side Scripting",
-    list: [
-      "Node.js",
-      "Express.js",
-      "Firebase",
-      "Strapi",
-      "OAuth",
-      "Passport.js",
-    ],
-  },
-  {
-    id: "3",
-    icon: ["fa", "database"],
-    skill: "Database Integration",
-    list: ["MYSQL", "MSSQL", "GraphQL", "Firestore"],
-  },
-];
+import skills from "../../data/skills";
 
 function Info() {
   return (
