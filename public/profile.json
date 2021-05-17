@@ -1,12 +1,1 @@
-{
-  "data": {
-    "user": {
-      "name": "Abbas Bandar",
-      "bio": "👾 | Open Source Contributor 🔥 |",
-      "isHireable": true,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/22922735?u=8e40b37d227d7e121ad56a2ab6fc85f884791386&v=4",
-      "location": "Monchengladbach, Germany",
-      "pinnedItems": {"totalCount": 0, "edges": []}
-    }
-  }
-}
+{"data":{"user":{"name":"Abbas Bandar","bio":"👾 | Open Source Contributor 🔥 |","isHireable":true,"avatarUrl":"https://avatars.githubusercontent.com/u/22922735?u=8e40b37d227d7e121ad56a2ab6fc85f884791386&v=4","location":"Monchengladbach, Germany","pinnedItems":{"totalCount":2,"edges":[{"node":{"name":"My_Portfolio","description":"website about my experience","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/abbasspark/My_Portfolio","id":"MDEwOlJlcG9zaXRvcnkzNDM4MTgzODk=","diskUsage":8591,"primaryLanguage":{"name":"JavaScript","color":"#f1e05a"}}},{"node":{"name":"Sparkpos","description":"Spark POS Website","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/abbasspark/Sparkpos","id":"MDEwOlJlcG9zaXRvcnkzNjY3NTMxNTY=","diskUsage":60954,"primaryLanguage":{"name":"HTML","color":"#e34c26"}}}]}}}}
