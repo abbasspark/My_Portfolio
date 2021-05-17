@@ -106,7 +106,7 @@ const educationInfo = {
       logo: require("./assets/images/Lebanese_International_University_logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "October 2010 - August 2013",
-      desc: "Participated in the research of streaming softwares and published 3 papers."
+      desc: ""
     }
   ]
 };
