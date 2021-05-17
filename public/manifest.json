@@ -1,25 +1,25 @@
 {
-	"name": "App",
-	"icons": [
-		{
-			"src": "/images/icons-192.png",
-			"type": "image/png",
-			"sizes": "192x192"
-		},
-		{
-			"src": "./apple-touch-icon-57x57.png",
-			"type": "image/png",
-			"sizes": "57x57"
-		},
-		{
-			"src": "./apple-touch-icon-180x180.png",
-			"type": "image/png",
-			"sizes": "180x180"
-		},
-		{
-			"src": "./apple-touch-icon-152x152.png",
-			"type": "image/png",
-			"sizes": "152x152"
-		}
-	]
+  "short_name": "Saad Pasta Portfolio",
+  "name": "Saad Pasta Portfolio",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/android-chrome-192x192.png?v8=qAJ44G5Bm7",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/android-chrome-384x384.png?v8=qAJ44G5Bm7",
+      "type": "image/png",
+      "sizes": "384x384"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6c63ff",
+  "background_color": "#ffffff"
 }
