@@ -24,6 +24,7 @@ export default function Profile() {
             console.error(result);
           })
           .then(response => {
+            console.log(response.data.user);
             setProfileFunction(response.data.user);
           })
           .catch(function (error) {
