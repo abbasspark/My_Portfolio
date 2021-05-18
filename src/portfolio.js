@@ -200,6 +200,17 @@ const bigProjects = {
           url: "https://sparkpos.netlify.app/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/SparkflixWeb.png"),
+      projectName: "Spark Flix",
+      projectDesc: "Watch Movies Online Free on Spark Flix ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sparkflix.netlify.app/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
