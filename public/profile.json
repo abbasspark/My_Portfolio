@@ -13,8 +13,8 @@
             "node": {
               "name": "My_Portfolio",
               "description": "website about my experience",
-              "forkCount": 10,
-              "stargazers": {"totalCount": 100},
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
               "url": "https://github.com/abbasspark/My_Portfolio",
               "id": "MDEwOlJlcG9zaXRvcnkzNDM4MTgzODk=",
               "diskUsage": 8697,
@@ -25,8 +25,8 @@
             "node": {
               "name": "Sparkpos",
               "description": "Spark POS Website",
-              "forkCount": 50,
-              "stargazers": {"totalCount": 300},
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
               "url": "https://github.com/abbasspark/Sparkpos",
               "id": "MDEwOlJlcG9zaXRvcnkzNjY3NTMxNTY=",
               "diskUsage": 60954,
@@ -37,11 +37,11 @@
             "node": {
               "name": "SparkFlix",
               "description": "This repo is for demonstration purposes only.",
-              "forkCount": 1300,
-              "stargazers": {"totalCount": 2000},
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
               "url": "https://github.com/abbasspark/SparkFlix",
               "id": "MDEwOlJlcG9zaXRvcnkzNjg1NzA2Nzk=",
-              "diskUsage": 50864,
+              "diskUsage": 0,
               "primaryLanguage": {"name": "CSS", "color": "#563d7c"}
             }
           }
