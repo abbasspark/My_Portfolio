@@ -2,8 +2,6 @@
 
 // Summary And Greeting Section
 
-import emoji from "react-easy-emoji";
-
 const illustration = {
   animated: true // set to false to use static SVG
 };
@@ -11,9 +9,9 @@ const illustration = {
 const greeting = {
   username: "Abbas Bandar",
   title: "Hi all, I'm Abbas",
-  subTitle: emoji(
+  subTitle:
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+  ,
   resumeLink:
     "https://drive.google.com/file/d/1R6PWdJ8dxIgYpNZZqC5yKox1p5JKqjEr/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -39,13 +37,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ Strapi / Digital Ocean"
-    )
+    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
+    "⚡ Integration of third party services such as Firebase/ Strapi / Digital Ocean"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -138,14 +132,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Project Manager",
+      role: "Backend Developer",
+      company: "Reuter.de",
+      companylogo: require("./assets/images/reuterLogo.jpg"),
+      date: "Juli 2021 – Present",
+      desc: `In Juli 2021, I was offered a position as a Backend developer at Reuter.de, Germany.
+     I worked on building services for E-commerce system based on Feathersjs, 
+     I was also involved in creating Proccess-engines for proccessing Big Data `
+    },
+    {
+      role: "Backend Developer",
       company: "COETI S.R.L-Classic TV",
       companylogo: require("./assets/images/classictv.jpeg"),
       date: "April 2018 – Juli 2020",
-      desc: `In April 2018, I was offered a position as a software developer and IT manager at COETI S.R.L in Ciudad del Este, Paraguay. I explored a completely new domain: IPTV and VOD system management. I was ultimately responsible for 25 online Linux servers and the smooth running of the entire related system. In this context, I work with various international companies, e.g. with CYMTV from Rotterdam, the Netherlands, and SuperTV from Brazil / China.`
+      desc: `In April 2018, I was offered a position as a Backend developer at COETI S.R.L in Ciudad del Este, Paraguay. 
+      I explored a completely new domain: IPTV and VOD system management. 
+      Were I worked on building microservices streaming CMS, also I did many api's . 
+      In this context, I work with various international companies, 
+      e.g. with CYMTV from Rotterdam, the Netherlands, and SuperTV from Brazil / China.`
     },
     {
-      role: "Front-End Developer",
+      role: "Backend Developer",
       company: "Al Oumara Bakery",
       companylogo: require("./assets/images/aloumara.jpg"),
       date: "November 2016 – March 2018",
@@ -220,7 +227,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements And Certifications 🏆 ",
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -268,9 +275,7 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  subtitle: "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
 
   talks: [
     {
@@ -286,7 +291,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: "Podcast 🎙️",
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
@@ -297,7 +302,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me ☎️",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+49-1631300978",
