@@ -138,7 +138,7 @@ const workExperiences = {
       date: "Juli 2021 – Present",
       desc: `In Juli 2021, I was offered a position as a Backend developer at Reuter.de, Germany.
      I worked on building services for E-commerce system based on Feathersjs, 
-     I was also involved in creating Proccess-engines for proccessing Big Data `
+     I was also involved in creating Process-engines for processing Big Data `
     },
     {
       role: "Backend Developer",
