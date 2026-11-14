@@ -133,7 +133,7 @@ export interface UiText {
     contact: string;
   };
   hero: {
-    emailMe: string;
+    contactMe: string;
     viewCv: string;
     basedIn: string;
     openTo: string;
@@ -168,13 +168,22 @@ export interface UiText {
   contact: {
     title: string;
     lead: string;
-    write: string;
     copy: string;
     copied: string;
     email: string;
     phone: string;
     profiles: string;
     backToTop: string;
+    form: {
+      name: string;
+      email: string;
+      message: string;
+      send: string;
+      sending: string;
+      success: string;
+      error: string;
+      privacy: string;
+    };
   };
   tagsLabel: string;
 }

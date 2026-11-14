@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import {useSite} from "../i18n";
+import ContactForm from "./ContactForm";
 import SocialIcon from "./SocialIcon";
 import "./Contact.css";
 
@@ -16,19 +17,7 @@ export default function Contact() {
           <div className="contact__pitch">
             <h2 className="contact__title">{ui.contact.title}</h2>
             <p className="contact__lead">{ui.contact.lead}</p>
-            <div className="contact__actions">
-              <a
-                className="button contact__primary"
-                href={`mailto:${profile.email}`}
-              >
-                {ui.contact.write}
-              </a>
-              <CopyEmailButton
-                email={profile.email}
-                label={ui.contact.copy}
-                copiedLabel={ui.contact.copied}
-              />
-            </div>
+            <ContactForm />
           </div>
 
           <dl className="contact__details">
@@ -38,6 +27,11 @@ export default function Contact() {
                 <a className="contact__email" href={`mailto:${profile.email}`}>
                   {profile.email}
                 </a>
+                <CopyEmailButton
+                  email={profile.email}
+                  label={ui.contact.copy}
+                  copiedLabel={ui.contact.copied}
+                />
               </dd>
             </div>
             <div className="contact__row">
@@ -111,7 +105,7 @@ function CopyEmailButton({email, label, copiedLabel}: CopyEmailButtonProps) {
   };
 
   return (
-    <button type="button" className="button contact__copy" onClick={copy}>
+    <button type="button" className="contact__copy" onClick={copy}>
       <span aria-live="polite">{copied ? copiedLabel : label}</span>
     </button>
   );

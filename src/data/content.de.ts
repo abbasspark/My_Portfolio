@@ -302,7 +302,7 @@ export const de: SiteContent = {
       contact: "Kontakt"
     },
     hero: {
-      emailMe: "E-Mail schreiben",
+      contactMe: "Kontakt aufnehmen",
       viewCv: "Lebenslauf ansehen",
       basedIn: "Wohnort",
       openTo: "Offen für",
@@ -340,13 +340,25 @@ export const de: SiteContent = {
     contact: {
       title: "Haben Sie ein Projekt oder eine Stelle im Sinn?",
       lead: "Schreiben Sie mir, woran Sie arbeiten. Ich melde mich bei Ihnen.",
-      write: "E-Mail schreiben",
       copy: "Adresse kopieren",
       copied: "Adresse kopiert",
       email: "E-Mail",
       phone: "Telefon",
       profiles: "Profile",
-      backToTop: "Nach oben"
+      backToTop: "Nach oben",
+      form: {
+        name: "Ihr Name",
+        email: "Ihre E-Mail-Adresse",
+        message: "Nachricht",
+        send: "Nachricht senden",
+        sending: "Wird gesendet …",
+        success:
+          "Vielen Dank. Ihre Nachricht ist unterwegs, ich antworte Ihnen per E-Mail.",
+        error:
+          "Die Nachricht konnte nicht gesendet werden. Bitte schreiben Sie mir direkt an die hier angegebene Adresse.",
+        privacy:
+          "Ihre Angaben werden über Netlify an mich übermittelt und nur für meine Antwort verwendet."
+      }
     },
     tagsLabel: "Technologien und Schwerpunkte"
   }

@@ -15,11 +15,8 @@ export default function Hero() {
           <h1 className="hero__headline">{profile.headline}</h1>
           <p className="hero__intro">{profile.intro}</p>
           <div className="hero__actions">
-            <a
-              className="button button--primary"
-              href={`mailto:${profile.email}`}
-            >
-              {ui.hero.emailMe}
+            <a className="button button--primary" href="#contact">
+              {ui.hero.contactMe}
             </a>
             <a
               className="button button--secondary"

@@ -58,34 +58,122 @@
   font-size: 1.125rem;
 }
 
-.contact__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 32px;
+.contact__copy {
+  display: block;
+  margin-top: 6px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--on-band-muted);
+  font: inherit;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.contact__copy:hover {
+  color: var(--on-band);
 }
 
 .contact__primary {
   background: var(--signal);
   color: var(--on-signal);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .contact__primary:hover {
   background: color-mix(in srgb, var(--signal) 88%, #fff);
 }
 
-.contact__copy {
-  min-width: 11.5em;
-  border-color: color-mix(in srgb, var(--on-band) 30%, transparent);
-  background: transparent;
-  color: var(--on-band);
-  font: inherit;
-  font-weight: 600;
-  cursor: pointer;
+.contact__primary:disabled {
+  opacity: 0.7;
+  cursor: progress;
 }
 
-.contact__copy:hover {
-  border-color: var(--on-band);
+/* Contact form */
+.form {
+  display: grid;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.form__row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.form__field {
+  display: grid;
+  gap: 6px;
+}
+
+.form__field span {
+  color: var(--on-band-muted);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.form__field input,
+.form__field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid color-mix(in srgb, var(--on-band) 28%, transparent);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--on-band) 6%, transparent);
+  color: var(--on-band);
+  font: inherit;
+}
+
+.form__field textarea {
+  resize: vertical;
+  min-height: 132px;
+}
+
+.form__field input:focus-visible,
+.form__field textarea:focus-visible {
+  outline: 3px solid var(--signal);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+.form__footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+}
+
+.form__privacy {
+  flex: 1 1 220px;
+  color: var(--on-band-muted);
+  font-size: 0.8125rem;
+  line-height: 1.45;
+}
+
+/* Honeypot field: off-screen for people, still present for bots. */
+.form__trap {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.form__status {
+  margin-top: 24px;
+  padding: 14px 16px;
+  border-left: 3px solid var(--signal);
+  background: color-mix(in srgb, var(--on-band) 6%, transparent);
+  font-weight: 500;
+}
+
+.form__status--error {
+  margin-top: 0;
+  border-left-color: #ff8a7a;
 }
 
 /* Details panel */
@@ -186,6 +274,10 @@
 }
 
 @media (max-width: 480px) {
+  .form__row {
+    grid-template-columns: 1fr;
+  }
+
   .contact__row {
     grid-template-columns: 1fr;
     padding: 16px 18px;

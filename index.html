@@ -105,6 +105,19 @@
   </head>
   <body>
     <noscript>This site needs JavaScript to run.</noscript>
+    <!-- Static copy of the contact form so Netlify Forms can detect its fields.
+         The visible form is rendered by React in src/components/ContactForm.tsx. -->
+    <form
+      name="contact"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

@@ -294,7 +294,7 @@ export const en: SiteContent = {
       contact: "Contact"
     },
     hero: {
-      emailMe: "Email me",
+      contactMe: "Contact me",
       viewCv: "View my CV",
       basedIn: "Based in",
       openTo: "Open to",
@@ -332,13 +332,25 @@ export const en: SiteContent = {
     contact: {
       title: "Have a project or a role in mind?",
       lead: "Tell me what you are building and I will get back to you.",
-      write: "Write me an email",
       copy: "Copy address",
       copied: "Address copied",
       email: "Email",
       phone: "Phone",
       profiles: "Profiles",
-      backToTop: "Back to top"
+      backToTop: "Back to top",
+      form: {
+        name: "Your name",
+        email: "Your email address",
+        message: "Message",
+        send: "Send message",
+        sending: "Sending…",
+        success:
+          "Thank you. Your message is on its way and I will reply by email.",
+        error:
+          "The message could not be sent. Please write to me directly at the address shown here.",
+        privacy:
+          "Your details are sent to me through Netlify and used only to reply to you."
+      }
     },
     tagsLabel: "Technologies and focus"
   }
