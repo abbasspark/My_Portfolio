@@ -1,0 +1,105 @@
+.hero {
+  padding-block: clamp(48px, 8vw, 104px) clamp(56px, 8vw, 104px);
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  gap: clamp(32px, 6vw, 80px);
+  align-items: center;
+}
+
+.hero__role {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.hero__headline {
+  max-width: 19ch;
+  margin-top: 16px;
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  font-weight: 700;
+  font-stretch: 116%;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.hero__intro {
+  max-width: 54ch;
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: clamp(1.0625rem, 1.6vw, 1.25rem);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.hero__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 48px;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.hero__facts dt {
+  color: var(--muted);
+  font-size: 0.875rem;
+  font-stretch: 88%;
+  font-weight: 500;
+}
+
+.hero__facts dd {
+  font-weight: 500;
+}
+
+.hero__photo {
+  position: relative;
+}
+
+.hero__photo img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 5 / 6;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+/* One bar of signal yellow under the portrait, echoing the "now" marker. */
+.hero__photo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  width: 44%;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--signal);
+}
+
+@media (max-width: 760px) {
+  .hero__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__photo {
+    order: -1;
+    width: 132px;
+  }
+
+  .hero__photo img {
+    aspect-ratio: 1;
+    object-position: 50% 20%;
+  }
+
+  .hero__photo::after {
+    bottom: -10px;
+    height: 4px;
+  }
+}

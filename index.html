@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Abbas Bandar – Senior Backend and Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Abbas Bandar is a senior backend and full-stack developer in Germany with 10+ years of experience building streaming platforms and e-commerce systems in Node.js, TypeScript and Go. Open to remote roles."
+    />
+    <meta name="author" content="Abbas Bandar" />
+    <meta name="theme-color" content="#0E1B33" />
+    <link rel="canonical" href="https://abbasbandar.netlify.app/" />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://abbasbandar.netlify.app/"
+    />
+    <link
+      rel="alternate"
+      hreflang="de"
+      href="https://abbasbandar.netlify.app/de/"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://abbasbandar.netlify.app/"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://abbasbandar.netlify.app/" />
+    <meta
+      property="og:title"
+      content="Abbas Bandar – Senior Backend and Full-Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="10+ years building the backend of streaming platforms and online shops in Node.js, TypeScript and Go."
+    />
+    <meta
+      property="og:image"
+      content="https://abbasbandar.netlify.app/og-image.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Abbas Bandar",
+        "jobTitle": "Senior Backend and Full-Stack Developer",
+        "url": "https://abbasbandar.netlify.app/",
+        "image": "https://abbasbandar.netlify.app/og-image.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mönchengladbach",
+          "addressCountry": "DE"
+        },
+        "worksFor": {"@type": "Organization", "name": "Reuter.de"},
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Lebanese International University"
+        },
+        "knowsLanguage": ["ar", "en", "de"],
+        "knowsAbout": [
+          "Node.js",
+          "TypeScript",
+          "Go",
+          "NestJS",
+          "PostgreSQL",
+          "Video streaming",
+          "E-commerce"
+        ],
+        "sameAs": [
+          "https://github.com/abbasspark",
+          "https://www.linkedin.com/in/abbas-bandar/",
+          "https://gitlab.com/abbasbandar",
+          "https://stackoverflow.com/users/15948184/abbas-bandar",
+          "https://www.spark-system.de"
+        ]
+      }
+    </script>
+
+    <script>
+      // Apply the saved or system theme before first paint to avoid a flash.
+      (function () {
+        if (/^\/de(\/|$)/.test(location.pathname)) {
+          document.documentElement.lang = "de";
+        }
+        try {
+          var saved = localStorage.getItem("theme");
+          var dark =
+            saved === "dark" ||
+            (saved === null &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches);
+          document.documentElement.dataset.theme = dark ? "dark" : "light";
+        } catch (e) {
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>This site needs JavaScript to run.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

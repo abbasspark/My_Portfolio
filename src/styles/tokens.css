@@ -1,0 +1,41 @@
+/* Design tokens. Colours follow a TV programme guide: ink navy, broadcast
+   blue, and one signal yellow reserved for "now". */
+:root {
+  --font: "Archivo Variable", "Helvetica Neue", Arial, sans-serif;
+
+  --bg: #f4f6fa;
+  --surface: #ffffff;
+  --ink: #0e1b33;
+  --muted: #55617a;
+  --line: #d5dce8;
+  --blue: #1f4fd8;
+  --blue-soft: #e4ebfc;
+  --on-blue: #ffffff;
+  --signal: #ffc83d;
+  --on-signal: #0e1b33;
+  --band: #0e1b33;
+  --on-band: #f4f6fa;
+  --on-band-muted: #a9b5cc;
+
+  --container: 1120px;
+  --gutter: clamp(20px, 4vw, 40px);
+  --section-space: clamp(64px, 9vw, 120px);
+  --radius: 6px;
+  --header-height: 64px;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0a1226;
+  --surface: #111c36;
+  --ink: #e9eef8;
+  --muted: #9aa7c0;
+  --line: #24324f;
+  --blue: #86a4ff;
+  --blue-soft: #1a2850;
+  --on-blue: #0a1226;
+  --band: #060c1b;
+
+  color-scheme: dark;
+}

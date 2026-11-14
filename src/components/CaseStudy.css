@@ -1,0 +1,212 @@
+.case {
+  background: var(--surface);
+}
+
+.case__kind {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.case__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: clamp(28px, 5vw, 64px);
+  align-items: start;
+  margin-top: 28px;
+}
+
+.case__lead {
+  font-size: clamp(1.125rem, 1.7vw, 1.3125rem);
+  line-height: 1.5;
+}
+
+.case__link {
+  margin-top: 20px;
+}
+
+.case__figure img {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.case__heading {
+  margin-block: clamp(40px, 6vw, 64px) 16px;
+  font-size: 1.375rem;
+  font-weight: 650;
+  font-stretch: 110%;
+  letter-spacing: -0.01em;
+}
+
+.case__intro .case__heading {
+  margin-top: 28px;
+}
+
+.case__heading--flush {
+  margin-top: 0;
+}
+
+/* Parts: a plain two-column table of what exists */
+.case__parts {
+  border-top: 1px solid var(--line);
+}
+
+.case__part {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 4px 32px;
+  padding-block: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.case__part dt {
+  font-weight: 650;
+}
+
+.case__part dd {
+  color: var(--muted);
+}
+
+/* Diagram */
+.case__diagram {
+  padding: clamp(16px, 3vw, 28px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  overflow-x: auto;
+}
+
+.diagram {
+  display: block;
+  width: 100%;
+  min-width: 760px;
+  height: auto;
+  font-family: var(--font);
+}
+
+.diagram__box {
+  fill: var(--surface);
+  stroke: var(--line);
+}
+
+.diagram__title {
+  fill: var(--ink);
+  font-size: 17px;
+  font-weight: 650;
+}
+
+.diagram__subtitle {
+  fill: var(--muted);
+  font-size: 13px;
+}
+
+.diagram__item {
+  fill: var(--blue-soft);
+}
+
+.diagram__label {
+  fill: var(--ink);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.diagram__line {
+  stroke: var(--ink);
+  stroke-width: 1.5;
+}
+
+.diagram__head {
+  fill: var(--ink);
+}
+
+.diagram__note {
+  fill: var(--muted);
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.case__caption {
+  max-width: 70ch;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+/* Decisions */
+.case__decisions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px clamp(32px, 5vw, 64px);
+}
+
+.case__decisions li {
+  padding-left: 18px;
+  border-left: 3px solid var(--signal);
+}
+
+.case__decisions h4 {
+  margin: 0 0 6px;
+  font-size: 1.0625rem;
+  font-weight: 650;
+}
+
+.case__decisions p {
+  color: var(--muted);
+}
+
+/* Stack and numbers */
+.case__footer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: 32px clamp(32px, 5vw, 64px);
+  margin-top: clamp(40px, 6vw, 64px);
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.case__facts-note {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.case__facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px 24px;
+  margin-top: 12px;
+}
+
+.case__facts dt {
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 700;
+  font-stretch: 112%;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.case__facts dd {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 860px) {
+  .case__intro,
+  .case__footer,
+  .case__decisions {
+    grid-template-columns: 1fr;
+  }
+
+  .case__part {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .header__link[href="#case-study"] {
+    display: none;
+  }
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Page not found – Abbas Bandar</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      :root {
+        --bg: #f4f6fa;
+        --ink: #0e1b33;
+        --muted: #55617a;
+        --blue: #1f4fd8;
+        --signal: #ffc83d;
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0a1226;
+          --ink: #e9eef8;
+          --muted: #9aa7c0;
+          --blue: #86a4ff;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        display: grid;
+        min-height: 100vh;
+        margin: 0;
+        padding: 24px;
+        place-items: center;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 34rem;
+      }
+      .bar {
+        width: 96px;
+        height: 6px;
+        border-radius: 3px;
+        background: var(--signal);
+      }
+      h1 {
+        margin: 24px 0 12px;
+        font-size: clamp(2rem, 6vw, 3rem);
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+      }
+      p {
+        margin: 0 0 8px;
+        color: var(--muted);
+        font-size: 1.125rem;
+      }
+      a {
+        display: inline-block;
+        margin: 20px 16px 0 0;
+        color: var(--blue);
+        font-weight: 600;
+        text-underline-offset: 3px;
+      }
+      a:focus-visible {
+        outline: 3px solid var(--signal);
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="bar" aria-hidden="true"></div>
+      <h1>This page is off air.</h1>
+      <p>The address you opened does not exist on this site.</p>
+      <p lang="de">Diese Seite gibt es hier nicht.</p>
+      <a href="/">Go to the home page</a>
+      <a href="/de/" lang="de">Zur Startseite</a>
+    </main>
+  </body>
+</html>
