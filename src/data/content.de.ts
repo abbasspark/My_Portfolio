@@ -33,7 +33,7 @@ export const de: SiteContent = {
 
   about: [
     "2012 habe ich in Beirut angefangen, Unternehmenssoftware zu entwickeln, noch während meines Informatikstudiums. Einige Jahre später habe ich dort bei einer Bäckereikette die IT- und Entwicklungsabteilung aufgebaut und die drei Standorte mit selbst entwickelter Software vernetzt.",
-    "2018 bin ich nach Paraguay gezogen und zu IPTV und Video-on-Demand gewechselt: Ich habe die Systeme gebaut, die Streams verwalten und ausliefern. Seit 2020 lebe ich in Deutschland und entwickle Backend-Services und Engines für die Datenmigration für den Onlineshop Reuter.de.",
+    "2018 bin ich nach Paraguay gezogen und zu IPTV und Video-on-Demand gewechselt: Ich habe die Systeme gebaut, die Streams verwalten und ausliefern. Seit 2020 lebe ich in Deutschland und entwickle Backend-Services und Datenmigrations-Engines für den Onlineshop Reuter.de.",
     "Neben meinem Job entwickle ich mein eigenes Produkt: Spark Technology, eine Streaming-Plattform, die Betreiber unter ihrer eigenen Marke nutzen."
   ],
 
@@ -291,6 +291,9 @@ export const de: SiteContent = {
     switchToLight: "Zum hellen Design wechseln",
     switchToDark: "Zum dunklen Design wechseln",
     switchLanguage: "View in English",
+    sectionsLabel: "Abschnitte",
+    metaDescription:
+      "Abbas Bandar ist Senior Backend- und Full-Stack-Entwickler in Deutschland mit mehr als 10 Jahren Erfahrung in der Entwicklung von Streaming-Plattformen und E-Commerce-Systemen mit Node.js, TypeScript und Go. Offen für Remote-Positionen.",
     nav: {
       experience: "Erfahrung",
       caseStudy: "Fallstudie",

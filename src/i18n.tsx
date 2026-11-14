@@ -38,6 +38,9 @@ export function SiteProvider({children}: {children: ReactNode}) {
   useEffect(() => {
     document.documentElement.lang = locale;
     document.title = `${CONTENT[locale].profile.name} – ${CONTENT[locale].profile.jobTitle}`;
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute("content", CONTENT[locale].ui.metaDescription);
   }, [locale]);
 
   useEffect(() => {

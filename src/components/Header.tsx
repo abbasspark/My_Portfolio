@@ -44,7 +44,7 @@ export default function Header({theme, onToggleTheme}: HeaderProps) {
         <a className="header__brand" href="#top">
           {profile.name}
         </a>
-        <nav className="header__nav" aria-label="Sections">
+        <nav className="header__nav" aria-label={ui.sectionsLabel}>
           {navLinks.map(link => (
             <a key={link.href} className="header__link" href={link.href}>
               {link.label}

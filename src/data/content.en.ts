@@ -283,6 +283,9 @@ export const en: SiteContent = {
     switchToLight: "Switch to light theme",
     switchToDark: "Switch to dark theme",
     switchLanguage: "Auf Deutsch anzeigen",
+    sectionsLabel: "Sections",
+    metaDescription:
+      "Abbas Bandar is a senior backend and full-stack developer in Germany with 10+ years of experience building streaming platforms and e-commerce systems in Node.js, TypeScript and Go. Open to remote roles.",
     nav: {
       experience: "Experience",
       caseStudy: "Case study",

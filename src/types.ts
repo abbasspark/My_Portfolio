@@ -123,6 +123,8 @@ export interface UiText {
   switchToLight: string;
   switchToDark: string;
   switchLanguage: string;
+  sectionsLabel: string;
+  metaDescription: string;
   nav: {
     experience: string;
     caseStudy: string;
