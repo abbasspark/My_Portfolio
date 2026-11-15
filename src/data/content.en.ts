@@ -16,7 +16,8 @@ export const en: SiteContent = {
   profile: {
     ...contact,
     jobTitle: "Senior Backend and Full-Stack Developer",
-    headline: "Backend systems that businesses run on.",
+    headline:
+      "Engineering scalable software solutions for real\u2011world business challenges.",
     intro:
       "For more than 10 years I have built services, APIs and data pipelines for e-commerce, streaming, ERP and retail, in Node.js, TypeScript and Go. I am looking for a senior backend or full-stack role, full-time or freelance, 100% remote.",
     location: "Mönchengladbach, Germany",

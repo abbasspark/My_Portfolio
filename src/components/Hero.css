@@ -49,13 +49,14 @@
 }
 
 .hero__headline {
-  max-width: 18ch;
+  max-width: 22ch;
   margin-top: 22px;
-  font-size: clamp(2.375rem, 5vw, 3.875rem);
+  font-size: clamp(1.875rem, 4.2vw, 3.25rem);
+  overflow-wrap: break-word;
   font-weight: 700;
-  font-stretch: 118%;
-  line-height: 1.02;
-  letter-spacing: -0.035em;
+  font-stretch: 116%;
+  line-height: 1.06;
+  letter-spacing: -0.03em;
   text-wrap: balance;
 }
 
@@ -230,6 +231,11 @@
 @media (max-width: 860px) {
   .hero__grid {
     grid-template-columns: 1fr;
+  }
+
+  /* Long German compounds need to hyphenate on narrow screens. */
+  .hero__headline {
+    hyphens: auto;
   }
 
   .hero__photo {
