@@ -22,7 +22,13 @@ export const en: SiteContent = {
       "For more than 10 years I have built services, APIs and data pipelines for e-commerce, streaming, ERP and retail, in Node.js, TypeScript and Go. I am looking for a senior backend or full-stack role, full-time or freelance, 100% remote.",
     location: "Mönchengladbach, Germany",
     availability: "Full-time or freelance, 100% remote (home office)",
-    languages: ["Arabic (native)", "English (fluent)", "German (B1)"],
+    languages: [
+      "Arabic (native)",
+      "English (fluent)",
+      "German (B1)",
+      "Portuguese (A1)",
+      "Spanish (A1)"
+    ],
     photo: images.photo,
     socials,
     stats: [

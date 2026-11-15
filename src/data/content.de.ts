@@ -26,7 +26,9 @@ export const de: SiteContent = {
     languages: [
       "Arabisch (Muttersprache)",
       "Englisch (fließend)",
-      "Deutsch (B1)"
+      "Deutsch (B1)",
+      "Portugiesisch (A1)",
+      "Spanisch (A1)"
     ],
     photo: images.photo,
     socials,
