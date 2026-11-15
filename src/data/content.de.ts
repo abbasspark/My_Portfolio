@@ -16,7 +16,8 @@ export const de: SiteContent = {
   profile: {
     ...contact,
     jobTitle: "Senior Backend- und Full-Stack-Entwickler",
-    headline: "Skalierbare Softwarelösungen für reale Geschäftsanforderungen.",
+    headline:
+      "Skalierbare Software\u00ADlösungen für reale Geschäfts\u00ADanforderungen.",
     intro:
       "Seit mehr als 10 Jahren entwickle ich Services, APIs und Datenpipelines für E-Commerce, Streaming, ERP und Handel, mit Node.js, TypeScript und Go. Ich suche eine Senior-Position im Backend oder Full-Stack, in Festanstellung oder freiberuflich, zu 100 % remote.",
     location: "Mönchengladbach, Deutschland",
