@@ -41,11 +41,31 @@ export const en: SiteContent = {
     ]
   },
 
-  about: [
-    "I started writing business software in Beirut in 2012, while I was still studying computer science. A few years later I set up the IT and development department of a bakery chain there and connected its three locations with software I wrote.",
-    "In 2018 I moved to Paraguay and into IPTV and video on demand, building the systems that manage and deliver streams. Since 2020 I have lived in Germany, where I build backend services and data migration engines for the Reuter.de online shop.",
-    "Alongside my job I build my own product, Spark Technology, a streaming platform that operators run under their own brand."
-  ],
+  about: {
+    lead: `A backend engineer with ${years} years of experience on three continents, from ERP software in Beirut to streaming platforms in Paraguay and e-commerce in Germany.`,
+    paragraphs: [
+      "I design and build the services, APIs and data pipelines behind a product, and I stay with them through deployment and operation. At Reuter.de I own more than 25 backend services and built the engines that migrated over 10 million records between data stores.",
+      "Before that I built IPTV and video-on-demand systems for international partners, and set up an IT and development department from scratch. That range is why I am comfortable owning a system end to end: data model, services, deployment and the people who depend on it.",
+      "Alongside my job I build Spark Technology, my own white-label streaming platform, where every decision is mine, from architecture to billing."
+    ],
+    stops: [
+      {
+        period: "2012 – 2018",
+        place: "Beirut, Lebanon",
+        focus: "Business software and IT management"
+      },
+      {
+        period: "2018 – 2020",
+        place: "Ciudad del Este, Paraguay",
+        focus: "IPTV and video-on-demand platforms"
+      },
+      {
+        period: "2020 – today",
+        place: "Germany",
+        focus: "Freelance, then e-commerce backend at Reuter.de"
+      }
+    ]
+  },
 
   roles: buildRoles({
     reuter: {
@@ -317,7 +337,7 @@ export const en: SiteContent = {
       photoAlt: "Portrait of Abbas Bandar",
       now: "Now"
     },
-    about: {title: "About me"},
+    about: {title: "About me", path: "My path"},
     experience: {
       title: "Experience",
       lead: "Four employers and a year of freelancing, on three continents, since 2012.",

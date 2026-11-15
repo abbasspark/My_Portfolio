@@ -42,11 +42,31 @@ export const de: SiteContent = {
     ]
   },
 
-  about: [
-    "2012 habe ich in Beirut angefangen, Unternehmenssoftware zu entwickeln, noch während meines Informatikstudiums. Einige Jahre später habe ich dort bei einer Bäckereikette die IT- und Entwicklungsabteilung aufgebaut und die drei Standorte mit selbst entwickelter Software vernetzt.",
-    "2018 bin ich nach Paraguay gezogen und zu IPTV und Video-on-Demand gewechselt: Ich habe die Systeme gebaut, die Streams verwalten und ausliefern. Seit 2020 lebe ich in Deutschland und entwickle Backend-Services und Datenmigrations-Engines für den Onlineshop Reuter.de.",
-    "Neben meinem Job entwickle ich mein eigenes Produkt: Spark Technology, eine Streaming-Plattform, die Betreiber unter ihrer eigenen Marke nutzen."
-  ],
+  about: {
+    lead: `Backend-Entwickler mit ${years} Jahren Erfahrung auf drei Kontinenten: von ERP-Software in Beirut über Streaming-Plattformen in Paraguay bis zu E-Commerce in Deutschland.`,
+    paragraphs: [
+      "Ich entwerfe und entwickle die Services, APIs und Datenpipelines hinter einem Produkt und begleite sie bis in Deployment und Betrieb. Bei Reuter.de verantworte ich mehr als 25 Backend-Services und habe die Engines gebaut, die über 10 Millionen Datensätze zwischen Datenspeichern migriert haben.",
+      "Davor habe ich IPTV- und Video-on-Demand-Systeme für internationale Partner entwickelt und eine IT- und Entwicklungsabteilung von Grund auf aufgebaut. Deshalb übernehme ich gern die Verantwortung für ein ganzes System: Datenmodell, Services, Deployment und die Menschen, die sich darauf verlassen.",
+      "Neben meinem Job entwickle ich Spark Technology, meine eigene White-Label-Streaming-Plattform, bei der ich jede Entscheidung selbst treffe, von der Architektur bis zur Abrechnung."
+    ],
+    stops: [
+      {
+        period: "2012 – 2018",
+        place: "Beirut, Libanon",
+        focus: "Unternehmenssoftware und IT-Leitung"
+      },
+      {
+        period: "2018 – 2020",
+        place: "Ciudad del Este, Paraguay",
+        focus: "IPTV- und Video-on-Demand-Plattformen"
+      },
+      {
+        period: "2020 – heute",
+        place: "Deutschland",
+        focus: "Freiberuflich, dann E-Commerce-Backend bei Reuter.de"
+      }
+    ]
+  },
 
   roles: buildRoles({
     reuter: {
@@ -321,7 +341,7 @@ export const de: SiteContent = {
       photoAlt: "Porträt von Abbas Bandar",
       now: "Aktuell"
     },
-    about: {title: "Über mich"},
+    about: {title: "Über mich", path: "Mein Weg"},
     experience: {
       title: "Berufserfahrung",
       lead: "Vier Arbeitgeber und ein Jahr als Freiberufler, auf drei Kontinenten, seit 2012.",

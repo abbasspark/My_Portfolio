@@ -143,7 +143,7 @@ export interface UiText {
     photoAlt: string;
     now: string;
   };
-  about: {title: string};
+  about: {title: string; path: string};
   experience: {
     title: string;
     lead: string;
@@ -191,11 +191,19 @@ export interface UiText {
   tagsLabel: string;
 }
 
+export interface About {
+  /** One-sentence summary, set in larger type. */
+  lead: string;
+  paragraphs: string[];
+  /** Career stops in order, oldest first. The last one is the current one. */
+  stops: {period: string; place: string; focus: string}[];
+}
+
 /** Everything one language version of the site needs. */
 export interface SiteContent {
   locale: Locale;
   profile: Profile;
-  about: string[];
+  about: About;
   roles: Role[];
   skillGroups: SkillGroup[];
   caseStudy: CaseStudy;
