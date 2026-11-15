@@ -79,6 +79,8 @@ export interface Profile {
   cvUrl: string;
   photo: string;
   socials: SocialLink[];
+  /** Headline figures shown in the strip under the hero. */
+  stats: {value: string; label: string}[];
 }
 
 export interface TitledText {
@@ -139,6 +141,7 @@ export interface UiText {
     openTo: string;
     languages: string;
     photoAlt: string;
+    now: string;
   };
   about: {title: string};
   experience: {

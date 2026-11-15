@@ -2,9 +2,11 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  /* Dark in both themes, so it reads as one piece with the hero below. */
+  background: color-mix(in srgb, var(--band) 90%, transparent);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid color-mix(in srgb, var(--on-band) 12%, transparent);
+  color: var(--on-band);
 }
 
 .header__inner {
@@ -31,15 +33,15 @@
 .header__link {
   padding: 8px 12px;
   border-radius: var(--radius);
-  color: var(--muted);
+  color: var(--on-band-muted);
   font-size: 0.9375rem;
   font-weight: 500;
   text-decoration: none;
 }
 
 .header__link:hover {
-  color: var(--ink);
-  background: var(--blue-soft);
+  color: var(--on-band);
+  background: color-mix(in srgb, var(--on-band) 10%, transparent);
 }
 
 .header__lang {
@@ -48,16 +50,16 @@
   min-width: 40px;
   height: 40px;
   padding-inline: 8px;
-  border: 1px solid var(--line);
+  border: 1px solid color-mix(in srgb, var(--on-band) 26%, transparent);
   border-radius: 20px;
-  color: var(--ink);
+  color: var(--on-band);
   font-size: 0.875rem;
   font-weight: 600;
   text-decoration: none;
 }
 
 .header__lang:hover {
-  border-color: var(--ink);
+  border-color: var(--on-band);
 }
 
 .header__theme {
@@ -65,15 +67,15 @@
   place-items: center;
   width: 40px;
   height: 40px;
-  border: 1px solid var(--line);
+  border: 1px solid color-mix(in srgb, var(--on-band) 26%, transparent);
   border-radius: 50%;
   background: transparent;
-  color: var(--ink);
+  color: var(--on-band);
   cursor: pointer;
 }
 
 .header__theme:hover {
-  border-color: var(--ink);
+  border-color: var(--on-band);
 }
 
 @media (max-width: 640px) {

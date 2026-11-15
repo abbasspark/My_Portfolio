@@ -28,7 +28,13 @@ export const de: SiteContent = {
       "Deutsch (B1)"
     ],
     photo: images.photo,
-    socials
+    socials,
+    stats: [
+      {value: "10+", label: "Jahre Backend-Entwicklung"},
+      {value: "25+", label: "verantwortete Backend-Services bei Reuter.de"},
+      {value: "10 Mio.+", label: "migrierte Datensätze"},
+      {value: "3", label: "Kontinente als Arbeitsort"}
+    ]
   },
 
   about: [
@@ -307,7 +313,8 @@ export const de: SiteContent = {
       basedIn: "Wohnort",
       openTo: "Offen für",
       languages: "Sprachen",
-      photoAlt: "Porträt von Abbas Bandar"
+      photoAlt: "Porträt von Abbas Bandar",
+      now: "Aktuell"
     },
     about: {title: "Über mich"},
     experience: {

@@ -23,7 +23,13 @@ export const en: SiteContent = {
     availability: "Full-time or freelance, 100% remote (home office)",
     languages: ["Arabic (native)", "English (fluent)", "German (B1)"],
     photo: images.photo,
-    socials
+    socials,
+    stats: [
+      {value: "10+", label: "years building backend systems"},
+      {value: "25+", label: "backend services owned at Reuter.de"},
+      {value: "10M+", label: "records migrated between data stores"},
+      {value: "3", label: "continents worked on"}
+    ]
   },
 
   about: [
@@ -299,7 +305,8 @@ export const en: SiteContent = {
       basedIn: "Based in",
       openTo: "Open to",
       languages: "Languages",
-      photoAlt: "Portrait of Abbas Bandar"
+      photoAlt: "Portrait of Abbas Bandar",
+      now: "Now"
     },
     about: {title: "About me"},
     experience: {
