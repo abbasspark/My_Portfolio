@@ -7,8 +7,11 @@ import {
   images,
   links,
   skillItems,
-  socials
+  socials,
+  yearsOfExperience
 } from "./shared";
+
+const years = yearsOfExperience();
 
 export const en: SiteContent = {
   locale: "en",
@@ -18,8 +21,7 @@ export const en: SiteContent = {
     jobTitle: "Senior Backend and Full-Stack Developer",
     headline:
       "Engineering scalable software solutions for real\u2011world business challenges.",
-    intro:
-      "For more than 10 years I have built services, APIs and data pipelines for e-commerce, streaming, ERP and retail, in Node.js, TypeScript and Go. I am looking for a senior backend or full-stack role, full-time or freelance, 100% remote.",
+    intro: `For ${years} years I have built services, APIs and data pipelines for e-commerce, streaming, ERP and retail, in Node.js, TypeScript and Go. I am looking for a senior backend or full-stack role, full-time or freelance, 100% remote.`,
     location: "Mönchengladbach, Germany",
     availability: "Full-time or freelance, 100% remote (home office)",
     languages: [
@@ -32,7 +34,7 @@ export const en: SiteContent = {
     photo: images.photo,
     socials,
     stats: [
-      {value: "10+", label: "years building backend systems"},
+      {value: String(years), label: "years building backend systems"},
       {value: "25+", label: "backend services owned at Reuter.de"},
       {value: "10M+", label: "records migrated between data stores"},
       {value: "3", label: "continents worked on"}
@@ -298,7 +300,7 @@ export const en: SiteContent = {
     switchLanguage: "Auf Deutsch anzeigen",
     sectionsLabel: "Sections",
     metaDescription:
-      "Abbas Bandar is a senior backend and full-stack developer in Germany with 10+ years of experience building backend systems for e-commerce, streaming and business software in Node.js, TypeScript and Go. Open to remote roles.",
+      "Abbas Bandar is a senior backend and full-stack developer in Germany who has built backend systems for e-commerce, streaming and business software since 2012, in Node.js, TypeScript and Go. Open to remote roles.",
     nav: {
       experience: "Experience",
       caseStudy: "Case study",

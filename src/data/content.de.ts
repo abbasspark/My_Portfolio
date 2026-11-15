@@ -7,8 +7,11 @@ import {
   images,
   links,
   skillItems,
-  socials
+  socials,
+  yearsOfExperience
 } from "./shared";
+
+const years = yearsOfExperience();
 
 export const de: SiteContent = {
   locale: "de",
@@ -18,8 +21,7 @@ export const de: SiteContent = {
     jobTitle: "Senior Backend- und Full-Stack-Entwickler",
     headline:
       "Skalierbare Software\u00ADlösungen für reale Geschäfts\u00ADanforderungen.",
-    intro:
-      "Seit mehr als 10 Jahren entwickle ich Services, APIs und Datenpipelines für E-Commerce, Streaming, ERP und Handel, mit Node.js, TypeScript und Go. Ich suche eine Senior-Position im Backend oder Full-Stack, in Festanstellung oder freiberuflich, zu 100 % remote.",
+    intro: `Seit ${years} Jahren entwickle ich Services, APIs und Datenpipelines für E-Commerce, Streaming, ERP und Handel, mit Node.js, TypeScript und Go. Ich suche eine Senior-Position im Backend oder Full-Stack, in Festanstellung oder freiberuflich, zu 100 % remote.`,
     location: "Mönchengladbach, Deutschland",
     availability:
       "Festanstellung oder freiberuflich, 100 % remote (Homeoffice)",
@@ -33,7 +35,7 @@ export const de: SiteContent = {
     photo: images.photo,
     socials,
     stats: [
-      {value: "10+", label: "Jahre Backend-Entwicklung"},
+      {value: String(years), label: "Jahre Backend-Entwicklung"},
       {value: "25+", label: "verantwortete Backend-Services bei Reuter.de"},
       {value: "10 Mio.+", label: "migrierte Datensätze"},
       {value: "3", label: "Kontinente als Arbeitsort"}
@@ -302,7 +304,7 @@ export const de: SiteContent = {
     switchLanguage: "View in English",
     sectionsLabel: "Abschnitte",
     metaDescription:
-      "Abbas Bandar ist Senior Backend- und Full-Stack-Entwickler in Deutschland mit mehr als 10 Jahren Erfahrung in der Entwicklung von Backend-Systemen für E-Commerce, Streaming und Unternehmenssoftware mit Node.js, TypeScript und Go. Offen für Remote-Positionen.",
+      "Abbas Bandar ist Senior Backend- und Full-Stack-Entwickler in Deutschland und entwickelt seit 2012 Backend-Systeme für E-Commerce, Streaming und Unternehmenssoftware mit Node.js, TypeScript und Go. Offen für Remote-Positionen.",
     nav: {
       experience: "Erfahrung",
       caseStudy: "Fallstudie",

@@ -21,6 +21,17 @@ export const images = {
   sparkTechnologyImage
 };
 
+/** The month of the first developer job; the years of experience count from here. */
+const careerStart = {year: 2012, month: 9};
+
+/** Full years worked since the career started, so the figure never goes stale. */
+export function yearsOfExperience(today: Date = new Date()): number {
+  const months =
+    (today.getFullYear() - careerStart.year) * 12 +
+    (today.getMonth() + 1 - careerStart.month);
+  return Math.floor(months / 12);
+}
+
 export const contact = {
   name: "Abbas Bandar",
   email: "abbasbandar@gmail.com",
