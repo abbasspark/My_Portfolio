@@ -16,9 +16,9 @@ export const en: SiteContent = {
   profile: {
     ...contact,
     jobTitle: "Senior Backend and Full-Stack Developer",
-    headline: "Backend systems for streaming platforms and online shops.",
+    headline: "I build the backend systems that businesses run on.",
     intro:
-      "For more than 10 years I have built the services, APIs and data pipelines behind TV platforms and e-commerce, in Node.js, TypeScript and Go. I am looking for a senior backend or full-stack role, full-time or freelance, 100% remote.",
+      "For more than 10 years I have built services, APIs and data pipelines for e-commerce, streaming, ERP and retail, in Node.js, TypeScript and Go. I am looking for a senior backend or full-stack role, full-time or freelance, 100% remote.",
     location: "Mönchengladbach, Germany",
     availability: "Full-time or freelance, 100% remote (home office)",
     languages: ["Arabic (native)", "English (fluent)", "German (B1)"],
@@ -291,7 +291,7 @@ export const en: SiteContent = {
     switchLanguage: "Auf Deutsch anzeigen",
     sectionsLabel: "Sections",
     metaDescription:
-      "Abbas Bandar is a senior backend and full-stack developer in Germany with 10+ years of experience building streaming platforms and e-commerce systems in Node.js, TypeScript and Go. Open to remote roles.",
+      "Abbas Bandar is a senior backend and full-stack developer in Germany with 10+ years of experience building backend systems for e-commerce, streaming and business software in Node.js, TypeScript and Go. Open to remote roles.",
     nav: {
       experience: "Experience",
       caseStudy: "Case study",

@@ -16,9 +16,10 @@ export const de: SiteContent = {
   profile: {
     ...contact,
     jobTitle: "Senior Backend- und Full-Stack-Entwickler",
-    headline: "Backend-Systeme für Streaming-Plattformen und Onlineshops.",
+    headline:
+      "Ich entwickle die Backend-Systeme, auf denen Unternehmen laufen.",
     intro:
-      "Seit mehr als 10 Jahren entwickle ich die Services, APIs und Datenpipelines hinter TV-Plattformen und E-Commerce, mit Node.js, TypeScript und Go. Ich suche eine Senior-Position im Backend oder Full-Stack, in Festanstellung oder freiberuflich, zu 100 % remote.",
+      "Seit mehr als 10 Jahren entwickle ich Services, APIs und Datenpipelines für E-Commerce, Streaming, ERP und Handel, mit Node.js, TypeScript und Go. Ich suche eine Senior-Position im Backend oder Full-Stack, in Festanstellung oder freiberuflich, zu 100 % remote.",
     location: "Mönchengladbach, Deutschland",
     availability:
       "Festanstellung oder freiberuflich, 100 % remote (Homeoffice)",
@@ -299,7 +300,7 @@ export const de: SiteContent = {
     switchLanguage: "View in English",
     sectionsLabel: "Abschnitte",
     metaDescription:
-      "Abbas Bandar ist Senior Backend- und Full-Stack-Entwickler in Deutschland mit mehr als 10 Jahren Erfahrung in der Entwicklung von Streaming-Plattformen und E-Commerce-Systemen mit Node.js, TypeScript und Go. Offen für Remote-Positionen.",
+      "Abbas Bandar ist Senior Backend- und Full-Stack-Entwickler in Deutschland mit mehr als 10 Jahren Erfahrung in der Entwicklung von Backend-Systemen für E-Commerce, Streaming und Unternehmenssoftware mit Node.js, TypeScript und Go. Offen für Remote-Positionen.",
     nav: {
       experience: "Erfahrung",
       caseStudy: "Fallstudie",
