@@ -35,8 +35,7 @@ export const links = {
   primeBeat: "https://primebeat.win/",
   cvCraft: "https://cv-craft.win/",
   stormZone: "https://stormzone.win/",
-  sharepointCertificate:
-    "https://drive.google.com/file/d/1EF5s4N-_Pqc7LwqCY5JIyTD9YVDQKABf/view?usp=sharing"
+  sharepointCertificate: "/microsoft-sharepoint-certificate.jpg"
 };
 
 export const socials: SocialLink[] = [

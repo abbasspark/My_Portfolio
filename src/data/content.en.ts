@@ -278,7 +278,7 @@ export const en: SiteContent = {
     {
       title: "Core Solutions of Microsoft SharePoint Server 2013",
       issuer: "Microsoft",
-      period: "Certificate",
+      period: "Certificate, 2015",
       logo: images.sharepointLogo,
       link: {label: "View certificate", url: links.sharepointCertificate}
     }
